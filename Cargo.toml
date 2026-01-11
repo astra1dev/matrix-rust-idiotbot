@@ -1,0 +1,10 @@
+[package]
+name = "matrix-rust-idiotbot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+matrix-sdk = { version = "0.16.0" , features = [ "markdown" ] }
+tokio = { version = "1.49.0", features = [ "rt-multi-thread", "macros" ] }
+tracing-subscriber = "0.3.22"
